@@ -1,13 +1,15 @@
 #!/usr/bin/env coffee
 
-
 request = require 'request'
 optimist = require('optimist')
+xml2js = require 'xml2js'
+
+
+optimist = optimist
 	.usage('Usage: $0 --token [Pinboard token] --tag [tag] --output [csv] --site [site uri]')
 	.alias('t', 'tag')
 	.default('output', 'csv')
 	.default('site', 'api.pinboard.in')
-xml2js = require 'xml2js'
 
 
 quote_re = new RegExp('"', 'g')

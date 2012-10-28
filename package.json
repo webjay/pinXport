@@ -21,7 +21,7 @@
 		"xml",
         "cli"
     ], 
-    "license": "", 
+    "license": "MIT", 
     "repository": {
         "type": "git", 
         "url": "https://github.com/webjay/pinXport.git"
