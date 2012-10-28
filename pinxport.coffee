@@ -41,7 +41,6 @@ options =
 		auth_token: argv.token
 		tag: tagstr
 		format: 'json'
-		meta: 'no'
 	json: true
 	headers:
 		Connection: 'close'
@@ -49,10 +48,13 @@ options =
 
 request.get options, (err, request, posts) ->
 	return console.error err if err?
+	if request.statusCode isnt 200
+		console.error 'Status: ' + request.statusCode
+		console.error optimist.help()
+		return
 	if typeof posts isnt 'object'
 		parser = new xml2js.Parser mergeAttrs: true
 		parser.parseString posts, (err, json) ->
-			console.error optimist.help()
 			return console.error 'Error parsing XML: ' + err if err?
 			console.log jsonToCsv json.posts.post
 	else
