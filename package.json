@@ -1,0 +1,26 @@
+{
+    "name" : "pinxport",
+    "version" : "0.0.1",
+    "description" : "Pinboard export command-line script",
+    "dependencies" : {
+        "request" : "2.11.x",
+		"optimist": "0.3.x"
+    },
+    "devDependencies" : {},
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/webjay/pinXport.git"
+    },
+    "keywords" : [
+        "pinboard",
+        "export",
+        "csv",
+        "cli"
+    ],
+    "author" : {
+        "name" : "Jacob Friis Saxberg",
+        "email" : "jacob@saxberg.dk",
+        "url" : "http://jacob.saxberg.dk/"
+    },
+    "license" : ""
+}
