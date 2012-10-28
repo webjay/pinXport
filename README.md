@@ -1,6 +1,6 @@
 # pinXport
 
-Pinboard export. Built in [CoffeeScript](http://coffeescript.org/).
+[Pinboard](http://pinboard.in/) export. Built in [CoffeeScript](http://coffeescript.org/).
 
 ## Usage
 
