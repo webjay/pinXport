@@ -1,4 +1,7 @@
 {
+    "name": "pinxport", 
+    "description": "Pinboard and Delicious command-line export script", 
+    "version": "0.0.1",
     "author": {
         "email": "jacob@saxberg.dk", 
         "name": "Jacob Friis Saxberg", 
@@ -6,21 +9,24 @@
     }, 
     "dependencies": {
         "optimist": "0.3.x", 
-        "request": "2.11.x"
+        "request": "2.11.x", 
+        "xml2js": "0.2.x"
     }, 
-    "description": "Pinboard export command-line script", 
     "devDependencies": {}, 
     "keywords": [
         "pinboard", 
+		"del.icio.us",
         "export", 
         "csv", 
+		"xml",
         "cli"
     ], 
     "license": "", 
-    "name": "pinxport", 
     "repository": {
         "type": "git", 
         "url": "https://github.com/webjay/pinXport.git"
     }, 
-    "version": "0.0.1"
+	"bin": {
+		"pinxport": "./pinxport"
+	}
 }
