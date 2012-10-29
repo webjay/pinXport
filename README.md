@@ -3,7 +3,11 @@
 pinXport enables you to export links from either [Pinboard](http://pinboard.in/) or [Delicious](http://delicious.com/).
 Built in [CoffeeScript](http://coffeescript.org/).
 
-## Usage
+### Install
+
+	npm install pinxport
+
+### Usage
 
 To get results from Pinboard with a specific tag do this:
 
