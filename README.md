@@ -13,12 +13,12 @@ Built in [CoffeeScript](http://coffeescript.org/).
 
 To get results from Pinboard with a specific tag do this:
 
-	./pinxport.coffee --token=[Pinboard token] --tag [tag] > results.csv
+	pinxport --token=[Pinboard token] --tag [tag] > results.csv
 
 To get results with multiple tags do this:
 
-	./pinxport.coffee --token=[Pinboard token] --tag [tag1] --tag [tag2] > results.csv
+	pinxport --token=[Pinboard token] --tag [tag1] --tag [tag2] > results.csv
 
 To get results with a specific tag from Delicious do this:
 
-	./pinxport.coffee --site [username]:[password]@api.del.icio.us --tag [tag] > results.csv
+	pinxport --site [username]:[password]@api.del.icio.us --tag [tag] > results.csv
