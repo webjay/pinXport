@@ -1,5 +1,7 @@
 # pinXport
 
+[![Build Status](https://secure.travis-ci.org/webjay/pinXport.png)](http://travis-ci.org/webjay/pinXport)
+
 pinXport enables you to export links from either [Pinboard](http://pinboard.in/) or [Delicious](http://delicious.com/).
 Built in [CoffeeScript](http://coffeescript.org/).
 

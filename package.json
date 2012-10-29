@@ -1,21 +1,24 @@
 {
     "name": "pinxport", 
     "description": "Pinboard and Delicious command-line export script", 
-    "version": "0.0.1",
+    "version": "0.1.0",
     "author": {
         "email": "jacob@saxberg.dk", 
         "name": "Jacob Friis Saxberg", 
         "url": "http://jacob.saxberg.dk/"
     }, 
+	"preferGlobal": "true",
     "bin": {
-        "pinxport": "./pinxport"
+        "pinxport": "bin/pinxport"
     }, 
     "dependencies": {
         "optimist": "0.3.x", 
         "request": "2.11.x", 
         "xml2js": "0.2.x"
     }, 
-    "devDependencies": {}, 
+    "devDependencies": {
+    	"coffee-script": "1.4.x"
+    }, 
     "keywords": [
         "pinboard", 
         "del.icio.us", 
